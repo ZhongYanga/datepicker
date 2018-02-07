@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4236BD274E1966F852B75D39 /* libPods-YearMonthPickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CDA68267B6BED5DF7EFC6E /* libPods-YearMonthPickerView.a */; };
+		796240D920070765002F020D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796240D820070765002F020D /* AppDelegate.m */; };
+		796240DC20070765002F020D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796240DB20070765002F020D /* ViewController.m */; };
+		796240DF20070765002F020D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796240DD20070765002F020D /* Main.storyboard */; };
+		796240E120070765002F020D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796240E020070765002F020D /* Assets.xcassets */; };
+		796240E420070765002F020D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796240E220070765002F020D /* LaunchScreen.storyboard */; };
+		796240E720070765002F020D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796240E620070765002F020D /* main.m */; };
+		798DA4802029813F00EEC5BE /* ZYDateTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798DA47E2029813F00EEC5BE /* ZYDateTimePickerView.m */; };
+		798DA4832029824100EEC5BE /* ZYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798DA4812029824100EEC5BE /* ZYDatePickerView.m */; };
+		79C769062021CA9900D3A393 /* UIColor+ZYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C769052021CA9900D3A393 /* UIColor+ZYExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48547C2A0E9F11D1E055A93F /* Pods-YearMonthPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearMonthPickerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YearMonthPickerView/Pods-YearMonthPickerView.release.xcconfig"; sourceTree = "<group>"; };
+		796240D420070765002F020D /* YearMonthPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YearMonthPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796240D720070765002F020D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		796240D820070765002F020D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		796240DA20070765002F020D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		796240DB20070765002F020D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		796240DE20070765002F020D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796240E020070765002F020D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796240E320070765002F020D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796240E520070765002F020D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796240E620070765002F020D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798DA47E2029813F00EEC5BE /* ZYDateTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDateTimePickerView.m; sourceTree = "<group>"; };
+		798DA47F2029813F00EEC5BE /* ZYDateTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDateTimePickerView.h; sourceTree = "<group>"; };
+		798DA4812029824100EEC5BE /* ZYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDatePickerView.m; sourceTree = "<group>"; };
+		798DA4822029824100EEC5BE /* ZYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDatePickerView.h; sourceTree = "<group>"; };
+		79C769042021CA9900D3A393 /* UIColor+ZYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYExtension.h"; sourceTree = "<group>"; };
+		79C769052021CA9900D3A393 /* UIColor+ZYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYExtension.m"; sourceTree = "<group>"; };
+		C7CCC3572DD3644B0FB46526 /* Pods-YearMonthPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearMonthPickerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearMonthPickerView/Pods-YearMonthPickerView.debug.xcconfig"; sourceTree = "<group>"; };
+		F8CDA68267B6BED5DF7EFC6E /* libPods-YearMonthPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YearMonthPickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796240D120070765002F020D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4236BD274E1966F852B75D39 /* libPods-YearMonthPickerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1BB13C4CFA1EA4619704D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8CDA68267B6BED5DF7EFC6E /* libPods-YearMonthPickerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796240CB20070765002F020D = {
+			isa = PBXGroup;
+			children = (
+				796240D620070765002F020D /* YearMonthPickerView */,
+				796240D520070765002F020D /* Products */,
+				8F2CAD606C21F08599657ED6 /* Pods */,
+				6E1BB13C4CFA1EA4619704D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		796240D520070765002F020D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796240D420070765002F020D /* YearMonthPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796240D620070765002F020D /* YearMonthPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				796240D720070765002F020D /* AppDelegate.h */,
+				796240D820070765002F020D /* AppDelegate.m */,
+				798DA4822029824100EEC5BE /* ZYDatePickerView.h */,
+				798DA4812029824100EEC5BE /* ZYDatePickerView.m */,
+				79C769042021CA9900D3A393 /* UIColor+ZYExtension.h */,
+				79C769052021CA9900D3A393 /* UIColor+ZYExtension.m */,
+				798DA47F2029813F00EEC5BE /* ZYDateTimePickerView.h */,
+				798DA47E2029813F00EEC5BE /* ZYDateTimePickerView.m */,
+				796240DA20070765002F020D /* ViewController.h */,
+				796240DB20070765002F020D /* ViewController.m */,
+				796240DD20070765002F020D /* Main.storyboard */,
+				796240E020070765002F020D /* Assets.xcassets */,
+				796240E220070765002F020D /* LaunchScreen.storyboard */,
+				796240E520070765002F020D /* Info.plist */,
+				796240E620070765002F020D /* main.m */,
+			);
+			path = YearMonthPickerView;
+			sourceTree = "<group>";
+		};
+		8F2CAD606C21F08599657ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCC3572DD3644B0FB46526 /* Pods-YearMonthPickerView.debug.xcconfig */,
+				48547C2A0E9F11D1E055A93F /* Pods-YearMonthPickerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796240D320070765002F020D /* YearMonthPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796240EA20070765002F020D /* Build configuration list for PBXNativeTarget "YearMonthPickerView" */;
+			buildPhases = (
+				37FFB7BEAC8CE6B1622A35AA /* [CP] Check Pods Manifest.lock */,
+				796240D020070765002F020D /* Sources */,
+				796240D120070765002F020D /* Frameworks */,
+				796240D220070765002F020D /* Resources */,
+				E0CFA3F1E0864F5E0E8E96F0 /* [CP] Embed Pods Frameworks */,
+				916D03234654E65F05D73D17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YearMonthPickerView;
+			productName = YearMonthPickerView;
+			productReference = 796240D420070765002F020D /* YearMonthPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796240CC20070765002F020D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhongyang;
+				TargetAttributes = {
+					796240D320070765002F020D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 796240CF20070765002F020D /* Build configuration list for PBXProject "YearMonthPickerView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796240CB20070765002F020D;
+			productRefGroup = 796240D520070765002F020D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796240D320070765002F020D /* YearMonthPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796240D220070765002F020D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796240E420070765002F020D /* LaunchScreen.storyboard in Resources */,
+				796240E120070765002F020D /* Assets.xcassets in Resources */,
+				796240DF20070765002F020D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37FFB7BEAC8CE6B1622A35AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		916D03234654E65F05D73D17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YearMonthPickerView/Pods-YearMonthPickerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CFA3F1E0864F5E0E8E96F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YearMonthPickerView/Pods-YearMonthPickerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796240D020070765002F020D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798DA4802029813F00EEC5BE /* ZYDateTimePickerView.m in Sources */,
+				796240DC20070765002F020D /* ViewController.m in Sources */,
+				79C769062021CA9900D3A393 /* UIColor+ZYExtension.m in Sources */,
+				796240E720070765002F020D /* main.m in Sources */,
+				796240D920070765002F020D /* AppDelegate.m in Sources */,
+				798DA4832029824100EEC5BE /* ZYDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		796240DD20070765002F020D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796240DE20070765002F020D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796240E220070765002F020D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796240E320070765002F020D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796240E820070765002F020D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		796240E920070765002F020D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796240EB20070765002F020D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CCC3572DD3644B0FB46526 /* Pods-YearMonthPickerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z4APH9JVF;
+				INFOPLIST_FILE = YearMonthPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyue.YearMonthPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796240EC20070765002F020D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48547C2A0E9F11D1E055A93F /* Pods-YearMonthPickerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z4APH9JVF;
+				INFOPLIST_FILE = YearMonthPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyue.YearMonthPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796240CF20070765002F020D /* Build configuration list for PBXProject "YearMonthPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796240E820070765002F020D /* Debug */,
+				796240E920070765002F020D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796240EA20070765002F020D /* Build configuration list for PBXNativeTarget "YearMonthPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796240EB20070765002F020D /* Debug */,
+				796240EC20070765002F020D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796240CC20070765002F020D /* Project object */;
+}

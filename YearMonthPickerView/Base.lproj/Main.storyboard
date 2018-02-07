@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Pb-Fr-Uxh">
+                                <rect key="frame" x="129.5" y="318" width="117" height="30"/>
+                                <state key="normal" title="YearMonthPicker"/>
+                                <connections>
+                                    <action selector="yearMonthPickerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ej6-gR-YYS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-WR-yle">
+                                <rect key="frame" x="134.5" y="378" width="107" height="30"/>
+                                <state key="normal" title="DateTimePicker"/>
+                                <connections>
+                                    <action selector="dateTimePickerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FTB-pa-2AU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kae-LQ-6Oc">
+                                <rect key="frame" x="20" y="267" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kae-LQ-6Oc" firstAttribute="centerX" secondItem="8Pb-Fr-Uxh" secondAttribute="centerX" id="HhY-rn-1lc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kae-LQ-6Oc" secondAttribute="trailing" constant="20" id="INT-SL-evX"/>
+                            <constraint firstItem="kae-LQ-6Oc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VaF-LD-1jc"/>
+                            <constraint firstItem="8Pb-Fr-Uxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zaw-6x-lWv"/>
+                            <constraint firstItem="8Pb-Fr-Uxh" firstAttribute="top" secondItem="kae-LQ-6Oc" secondAttribute="bottom" constant="30" id="jH1-TK-3ab"/>
+                            <constraint firstItem="1AF-WR-yle" firstAttribute="centerX" secondItem="8Pb-Fr-Uxh" secondAttribute="centerX" id="qCX-hR-V5U"/>
+                            <constraint firstItem="1AF-WR-yle" firstAttribute="top" secondItem="8Pb-Fr-Uxh" secondAttribute="bottom" constant="30" id="sCr-CD-3hA"/>
+                            <constraint firstItem="8Pb-Fr-Uxh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vrT-ZE-pqa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="kae-LQ-6Oc" id="ego-4n-HhD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
